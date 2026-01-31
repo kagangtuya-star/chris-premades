@@ -1,6 +1,8 @@
 # 1.4.24 Release:
 ## Bug Fixes:
 - Interception
+- Wildshape
+- Legendary Actions Prompt
 
 # 1.4.23 Release:
 ## Bug Fixes:
