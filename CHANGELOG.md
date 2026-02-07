@@ -1,4 +1,4 @@
-# 1.4.26 Release:
+# 1.4.25 Release:
 ## New Modern Content:
 - Blood Sacrifice
 - Fork of Eddy Summoning
