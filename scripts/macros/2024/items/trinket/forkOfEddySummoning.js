@@ -9,7 +9,23 @@ async function use({trigger, workflow}) {
     let animation = itemUtils.getConfig(workflow.item, 'animation');
     let dismiss = activityUtils.getActivityByIdentifier(workflow.item, 'dismiss', {strict: true});
     if (!dismiss) return;
-    await Summons.spawn(actor, undefined, workflow.item, workflow.token, {
+    let updates = {
+        actor: {
+            prototypeToken: {
+                disposition: workflow.token.document.disposition
+            }
+        },
+        token: {
+            disposition: workflow.token.document.disposition
+        }
+    };
+    let name = itemUtils.getConfig(workflow.item, 'name');
+    if (name) {
+        updates.actor.name = name;
+        updates.token.name = name;
+        updates.actor.prototypeToken.name = name;
+    }
+    await Summons.spawn(actor, updates, workflow.item, workflow.token, {
         duration: itemUtils.convertDuration(workflow.activity).seconds, 
         range: workflow.activity.range.value,
         animation,
@@ -61,6 +77,14 @@ export let forkOfEddySummoning = {
             i18nOption: 'CHRISPREMADES.Summons.CreatureNames.EldritchEddy',
             type: 'text',
             default: 'Eldritch Eddy',
+            category: 'summons'
+        },
+        {
+            value: 'name',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            i18nOption: 'CHRISPREMADES.Summons.CreatureNames.EldritchEddy',
+            type: 'text',
+            default: '',
             category: 'summons'
         }
     ]
