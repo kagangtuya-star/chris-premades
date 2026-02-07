@@ -1,4 +1,4 @@
-# 1.4.25 Release:
+# 1.4.26 Release:
 ## New Modern Content:
 - Blood Sacrifice
 - Fork of Eddy Summoning
@@ -17,7 +17,7 @@
 - Escape Generic Monster Feature
 - Invisible Condition
 
-# 1.4.24 Release:
+# 1.4.25 Release:
 ## Bug Fixes:
 - Interception
 - Wild Shape
