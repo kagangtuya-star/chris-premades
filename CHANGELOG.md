@@ -3,6 +3,14 @@
 - Blood Sacrifice
 - Fork of Eddy Summoning
 - Wand of the Precocious Apprentice
+- Fisticuffs (Thanks Bacon)
+- Iron Chin (Thanks Bacon)
+- Moxie (Thanks Bacon)
+- Bloodied But Unbowed (Thanks Bacon)
+- Swagger Streak (Thanks Bacon)
+- Heavy Hitter (Thanks Bacon)
+- Groundwork (Thanks Bacon)
+- Muscle Mass (Thanks Bacon)
 ## New Monster Content:
 - Eldritch Eddy: Arcane Bolt, Eldritch Overload, Searing Swipe
 ## Bug Fixes:
