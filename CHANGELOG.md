@@ -1,3 +1,7 @@
+# 1.4.25 Release:
+## Bug Fixes:
+- Escape Generic Monster Feature
+
 # 1.4.24 Release:
 ## Bug Fixes:
 - Interception
