@@ -1,6 +1,13 @@
 # 1.4.25 Release:
+## New Modern Content:
+- Blood Sacrifice
+- Fork of Eddy Summoning
+- Wand of the Precocious Apprentice
+## New Monster Content:
+- Eldritch Eddy: Arcane Bolt, Eldritch Overload, Searing Swipe
 ## Bug Fixes:
 - Escape Generic Monster Feature
+- Invisible Condition
 
 # 1.4.24 Release:
 ## Bug Fixes:

@@ -1027,6 +1027,9 @@
             "BloodFrenzy": {
                 "Name": "Blood Frenzy"
             },
+            "BloodSacrifice": {
+                "Apply": "Apply {itemName}?"
+            },
             "BloodiedFrenzy": {
                 "Name": "Bloodied Frenzy"
             },
@@ -3631,6 +3634,7 @@
                 "EarthElemental": "Earth Elemental",
                 "EarthenHand": "Earthen Hand",
                 "Echo": "Echo",
+                "EldritchEddy": "Eldritch Eddy",
                 "ElementalSpirit": "Elemental Spirit",
                 "ElementalSpiritAir": "Elemental Spirit (Air)",
                 "ElementalSpiritEarth": "Elemental Spirit (Earth)",

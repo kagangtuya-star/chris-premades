@@ -209,6 +209,7 @@ export {falseLife} from './macros/2024/spells/falseLife.js';
 export {spellfireFlare} from './macros/2024/spells/spellfireFlare.js';
 export {dissolution} from './macros/2024/spells/dissolution.js';
 export {dream} from './macros/2024/spells/dream.js';
+export {bloodSacrifice, bloodSacrificeEffect} from './macros/2024/spells/bloodSacrifice.js';
 // Items
 export {healersKit} from './macros/2024/items/healersKit.js';
 export {unarmedStrike} from './macros/2024/items/misc/unarmedStrike.js';
@@ -216,6 +217,8 @@ export {deckOfIllusions} from './macros/2024/items/trinket/deckOfIllusions.js';
 export {ringOfSpellStoring, ringOfSpellStoringSpell} from './macros/2024/items/trinket/ringOfSpellStoring.js';
 export {orbOfDamara, orbOfDamaraEffect} from './macros/2024/items/trinket/orbOfDamara.js';
 export {maskOfMonstrousForms} from './macros/2024/items/trinket/maskOfMonstrousForms.js';
+export {forkOfEddySummoning} from './macros/2024/items/trinket/forkOfEddySummoning.js';
+export {wandOfThePrecociousApprentice} from './macros/2024/items/trinket/wandOfThePrecociousApprentice.js';
 // Feats
 export {alert} from './macros/2024/feats/alert.js';
 export {archery} from './macros/2024/feats/archery.js';
@@ -496,6 +499,10 @@ export {pseudodragonSting} from './macros/2024/monsterFeatures/pseudodragon/stin
 export {carrionCrawlerParalyzingTentacles} from './macros/2024/monsterFeatures/carrionCrawler/paralyzingTentacles.js';
 // Night Hag
 export {nightmareHaunting} from './macros/2024/monsterFeatures/nightHag/nightmareHaunting.js';
+// Eldritch Eddy
+export {searingSwipe} from './macros/2024/monsterFeatures/eldritchEddy/searingSwipe.js';
+export {arcaneBolt} from './macros/2024/monsterFeatures/eldritchEddy/arcaneBolt.js';
+export {eldritchOverload} from './macros/2024/monsterFeatures/eldritchEddy/eldritchOverload.js';
 // Transformations
 // Vampire
 export {vampireFangedBite} from './macros/2024/transformations/vampire/fangedBite.js';
