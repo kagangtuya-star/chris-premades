@@ -1,3 +1,12 @@
+# 1.4.28 Release:
+## New Modern Content:
+- Dig Deep (Thanks Bacon)
+- Haymaker (Thanks Bacon)
+- Moxie-Fueled Fists (Thanks Bacon)
+- Meat Shield (Thanks Bacon)
+## Bug Fixes:
+- Iron Chin (Thanks Bacon)
+
 # 1.4.27 Release:
 ## Bug Fixes:
 - Grave Touched
