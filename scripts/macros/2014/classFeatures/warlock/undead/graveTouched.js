@@ -22,7 +22,7 @@ export let graveTouched = {
             {
                 pass: 'damageRollComplete',
                 macro: damage,
-                priority: 50
+                priority: 500
             }
         ]
     }

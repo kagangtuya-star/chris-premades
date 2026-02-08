@@ -1,3 +1,7 @@
+# 1.4.27 Release:
+## Bug Fixes:
+- Grave Touched
+
 # 1.4.26 Release:
 ## Bug Fixes:
 - Fork of Eddy Summoning
