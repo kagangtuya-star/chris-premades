@@ -1,3 +1,13 @@
+# 1.4.29 Release:
+## New Modern Content:
+- Down But Not Out (Thanks Bacon)
+- School of Hard Knocks (Thanks Bacon)
+- Herculean (Thanks Bacon)
+- Shake It Off (Thanks Bacon)
+## Bug Fixes:
+- Bloodied But Unbowed (Thanks Bacon)
+- Dig Deep (Thanks Bacon)
+
 # 1.4.28 Release:
 ## New Modern Content:
 - Dig Deep (Thanks Bacon)
