@@ -83,8 +83,7 @@ async function early({workflow}) {
     let template = await fromUuid(templateUuid);
     if (!template) return;
     if (!templateUtils.getTokensInTemplate(template).has(targetToken)) return;
-    workflow.advantage = true;
-    workflow.attackAdvAttribution.add(genericUtils.translate('DND5E.Advantage') + ': ' + effect.name);
+    workflow.tracker.advantage.add(effect.name, effect.name);
 }
 async function late({workflow}) {
     let effect = effectUtils.getEffectByIdentifier(workflow.actor, 'stormSphere');

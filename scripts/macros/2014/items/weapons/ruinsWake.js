@@ -1,7 +1,6 @@
 import {activityUtils, dialogUtils, genericUtils, workflowUtils} from '../../../../utils.js';
-
-async function reactionAttack({trigger, workflow}) {
-    workflow.advantage = true;
+async function reactionAttack({trigger: {entity: item}, workflow}) {
+    workflow.tracker.advantage.add(item.name, item.name);
 }
 async function battleCry({trigger, workflow}) {
     if (!workflow.token) return;

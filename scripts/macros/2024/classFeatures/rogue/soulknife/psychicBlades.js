@@ -23,8 +23,7 @@ async function range({trigger, workflow}) {
     if (itemUtils.getItemByIdentifier(workflow.actor, 'sharpshooter')) return;
     let distance = tokenUtils.getDistance(workflow.token, workflow.targets.first());
     if (distance <= 60) return;
-    workflow.disadvantage = true;
-    workflow.attackAdvAttribution.add(genericUtils.translate('DND5E.Disadvantage') + ': ' + genericUtils.translate('CHRISPREMADES.Generic.Range'));
+    workflow.tracker.disadvantage.add(genericUtils.translate('CHRISPREMADES.Generic.Range'), genericUtils.translate('CHRISPREMADES.Generic.Range'));
 }
 async function early({trigger, workflow}) {
     if (workflow.actor.system.abilities.str.mod <= workflow.actor.system.abilities.dex.mod) return;

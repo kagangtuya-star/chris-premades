@@ -31,8 +31,7 @@ async function attack({trigger, workflow}) {
         default:
             return;
     }
-    workflow.disadvantage = true;
-    workflow.attackAdvAttribution.add(genericUtils.translate('CHRISPREMADES.Macros.Underwater.Underwater'));
+    workflow.tracker.disadvantage.add(genericUtils.translate('CHRISPREMADES.Macros.Underwater.Underwater'), genericUtils.translate('CHRISPREMADES.Macros.Underwater.Underwater'));
 }
 async function range({trigger, workflow}) {
     if (workflow.targets.size != 1) return;

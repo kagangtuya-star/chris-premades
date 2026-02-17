@@ -141,8 +141,7 @@ async function earlyBrand({workflow}) {
     let effects = effectUtils.getAllEffectsByIdentifier(targetToken.actor, 'brandOfCastigation');
     if (!effects.length) return;
     if (!effects.filter(i => i.origin === effect.origin).length) return;
-    workflow.advantage = true;
-    workflow.attackAdvAttribution.add(genericUtils.translate('DND5E.Advantage') + ': ' + effect.name);
+    workflow.tracker.advantage.add(effect.name, effect.name);
 }
 async function turnStart({trigger: {entity: effect, token}}) {
     let actor = token.actor;

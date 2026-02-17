@@ -45,8 +45,7 @@ async function earlyCloud({trigger: {entity: effect}, workflow}) {
     let targetToken = workflow.targets.first();
     let originActor = (await effectUtils.getOriginItem(effect))?.actor;
     if (!originActor?.uuid !== targetToken.actor.uuid) return;
-    workflow.disadvantage = true;
-    workflow.attackAdvAttribution.add(genericUtils.translate('DND5E.Disadvantage') + ': ' + effect.name);
+    workflow.tracker.disadvantage.add(effect.name, effect.name);
 }
 async function useStone({workflow}) {
     if (!workflow.failedSaves.size) return;

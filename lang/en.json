@@ -1021,9 +1021,6 @@
             "Blink": {
                 "Away": "Blinked Away"
             },
-            "BloodiedButUnbowed": {
-                "Trigger": "Trigger only when bloodied"
-            },
             "BloodCurses": {
                 "Amplify": "Amplify Blood Curse?"
             },
@@ -1032,6 +1029,9 @@
             },
             "BloodSacrifice": {
                 "Apply": "Apply {itemName}?"
+            },
+            "BloodiedButUnbowed": {
+                "Trigger": "Trigger only when bloodied"
             },
             "BloodiedFrenzy": {
                 "Name": "Bloodied Frenzy"
@@ -2257,7 +2257,8 @@
                 "Sword": "Shadow Blade Sword"
             },
             "ShadowOfMoil": {
-                "Damage": "Shadow of Moil: Damage"
+                "Damage": "Shadow of Moil: Damage",
+                "Name": "Shadow of Moil"
             },
             "ShadowStep": {
                 "Name": "Shadow Step"
@@ -2677,7 +2678,7 @@
             "VampiricBite": {
                 "Bonus": "Bonus to next attack/check",
                 "Heal": "Regain hp",
-                "LowHealth": "Advantage: Below half hp",
+                "LowHealth": "Below half hp",
                 "Select": "Empower yourself?"
             },
             "VampiricTouch": {

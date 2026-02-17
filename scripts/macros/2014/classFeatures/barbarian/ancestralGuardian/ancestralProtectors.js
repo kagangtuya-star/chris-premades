@@ -32,8 +32,7 @@ async function early({workflow}) {
     let originActorUuid = origin.actor.uuid;
     let targetActorUuid = workflow.targets.first().actor.uuid;
     if (originActorUuid === targetActorUuid) return;
-    workflow.disadvantage = true;
-    workflow.attackAdvAttribution.add(genericUtils.translate('DND5E.Disadvantage') + ': ' + origin.name);
+    workflow.tracker.disadvantage.add(origin.name, origin.name);
 }
 async function late({workflow}) {
     if (!workflowUtils.isAttackType(workflow, 'attack')) return;

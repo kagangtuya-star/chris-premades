@@ -6,8 +6,7 @@ async function early({trigger: {entity: item}, workflow}) {
     if (workflow.targets.size !== 1) return;
     let hp = workflow.targets.first().actor.system.attributes.hp;
     if (hp.value === hp.max) return;
-    workflow.advantage = true;
-    workflow.attackAdvAttribution.add(genericUtils.translate('DND5E.Advantage') + ': ' + item.name);
+    workflow.tracker.advantage.add(item.name, item.name);
 }
 export let bloodFrenzy = {
     name: 'Blood Frenzy',
