@@ -1,4 +1,4 @@
-import {genericUtils, itemUtils} from '../../../../utils.js';
+import {itemUtils} from '../../../../utils.js';
 async function early({trigger: {entity: item}, workflow}) {
     let config = itemUtils.getGenericFeatureConfig(workflow.item, 'bloodFrenzy');
     let activities = config.activities;
@@ -15,7 +15,7 @@ export let bloodFrenzy = {
     midi: {
         actor: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: early,
                 priority: 50
             }

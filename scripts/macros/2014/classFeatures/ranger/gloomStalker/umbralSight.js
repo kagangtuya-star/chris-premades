@@ -1,5 +1,4 @@
-import {genericUtils, itemUtils, tokenUtils} from '../../../../../utils.js';
-
+import {tokenUtils} from '../../../../../utils.js';
 async function early({trigger: {entity: item}, workflow}) {
     if (workflow.targets.size !== 1 || !workflow.token) return;
     if (tokenUtils.getLightLevel(workflow.token) !== 'dark') return;
@@ -22,12 +21,12 @@ export let umbralSight = {
     midi: {
         actor: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: early,
                 priority: 50
             },
             {
-                pass: 'targetPreambleComplete',
+                pass: 'targetPreAttackRollConfig',
                 macro: earlyTarget,
                 priority: 50
             }

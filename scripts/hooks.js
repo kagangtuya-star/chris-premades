@@ -54,6 +54,7 @@ export function registerHooks() {
     Hooks.on('midi-qol.premades.postSavesComplete', midiEvents.savesComplete);
     Hooks.on('midi-qol.preTargetDamageApplication', midiEvents.preTargetDamageApplication);
     Hooks.on('midi-qol.premades.postRollFinished', midiEvents.rollFinished);
+    Hooks.on('midi-qol.preAttackRollConfig', midiEvents.preAttackRollConfig);
 
     // DAE Field Browser
     Hooks.on('dae.setFieldData', dae.addFlags);

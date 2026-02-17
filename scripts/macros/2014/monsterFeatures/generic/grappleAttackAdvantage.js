@@ -25,7 +25,7 @@ export let grappleAttackAdvantage = {
     midi: {
         item: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: use,
                 priority: 100
             },

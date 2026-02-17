@@ -501,7 +501,7 @@ export let formulaNighteye = {
     midi: {
         actor: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: earlyNighteye,
                 priority: 51
             }

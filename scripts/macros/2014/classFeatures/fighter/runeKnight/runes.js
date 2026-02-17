@@ -236,12 +236,12 @@ export let stormRune = {
         ],
         actor: [
             {
-                pass: 'scenePreambleComplete',
+                pass: 'scenePreAttackRollConfig',
                 macro: earlyStormRune,
                 priority: 50
             },
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: earlyStormRune,
                 priority: 50
             }

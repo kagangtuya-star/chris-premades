@@ -124,25 +124,9 @@ async function preCreateActiveEffect(effect, updates, options, userId) {
                     return;
                 case 'invisible':
                     if (rules === 'modern') {
-                        invisibleMacro = true;
                         changes.push(
                             {
                                 key: 'flags.dnd5e.initiativeAdv',
-                                mode: 0,
-                                value: 1,
-                                priority: 20
-                            }
-                        );
-                    } else {
-                        changes.push(
-                            {
-                                key: 'flags.midi-qol.advantage.attack.all',
-                                mode: 0,
-                                value: 1,
-                                priority: 20
-                            },
-                            {
-                                key: 'flags.midi-qol.grants.disadvantage.attack.all',
                                 mode: 0,
                                 value: 1,
                                 priority: 20
@@ -396,18 +380,12 @@ async function preCreateActiveEffect(effect, updates, options, userId) {
             });
         }
     }
-    if (!changes.length && !removeStatuses.length && !invisibleMacro) return;
+    if (!changes.length && !removeStatuses.length) return;
     let sourceUpdates = {
         changes: (updates.changes ?? []).concat(changes),
         statuses: updates.statuses.filter(i => !removeStatuses.includes(i))
     };
     if (splitConditions) genericUtils.setProperty(sourceUpdates, 'flags.chris-premades.conditions', removeStatuses);
-    if (invisibleMacro) {
-        let actorMacros = updates?.flags?.['chris-premades']?.macros?.midi?.actor ?? [];
-        actorMacros.push('invisible');
-        genericUtils.setProperty(sourceUpdates, 'flags.chris-premades.macros.midi.actor', actorMacros);
-        genericUtils.setProperty(sourceUpdates, 'flags.chris-premades.rules', 'modern');
-    }
     effect.updateSource(sourceUpdates);
 }
 function disableSpecialEffects(enabled) {

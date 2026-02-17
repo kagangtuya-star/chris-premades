@@ -27,7 +27,7 @@ export let ruinsWakeD = {
     midi: {
         item: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: reactionAttack,
                 priority: 50,
                 activities: ['reactionAttack']

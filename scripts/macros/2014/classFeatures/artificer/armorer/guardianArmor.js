@@ -129,7 +129,7 @@ export let guardianArmorThunderGauntlets = {
         ],
         actor: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: attack,
                 priority: 50
             }

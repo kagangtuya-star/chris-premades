@@ -478,7 +478,6 @@ export {swaggerStreak} from './macros/2024/classFeatures/pugilist/swaggerStreak.
 // Squared Circle
 export {groundwork} from './macros/2024/classFeatures/pugilist/squaredCircle/groundwork.js';
 export {meatShield} from './macros/2024/classFeatures/pugilist/squaredCircle/meatShield.js';
-export {muscleMass} from './macros/2024/classFeatures/pugilist/squaredCircle/muscleMass.js';
 // Multiple
 export {evasion} from './macros/2024/classFeatures/multiple/evasion.js';
 // Monster Features

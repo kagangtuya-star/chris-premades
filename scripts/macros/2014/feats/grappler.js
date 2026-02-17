@@ -1,4 +1,4 @@
-import {constants, dialogUtils, effectUtils, genericUtils, rollUtils, socketUtils, workflowUtils} from '../../../utils.js';
+import {dialogUtils, effectUtils, genericUtils, rollUtils, socketUtils, workflowUtils} from '../../../utils.js';
 async function early({trigger: {entity: item}, workflow}) {
     if (!workflowUtils.isAttackType(workflow, 'attack')) return;
     if (!workflow.targets.size) return;
@@ -52,7 +52,7 @@ export let grappler = {
     midi: {
         actor: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: early,
                 priority: 50
             }

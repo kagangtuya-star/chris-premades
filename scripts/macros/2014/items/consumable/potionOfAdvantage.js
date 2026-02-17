@@ -39,7 +39,7 @@ export let potionOfAdvantage = {
         ],
         actor: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: early,
                 priority: 60
             }

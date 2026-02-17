@@ -121,7 +121,7 @@ export let stormSphere = {
                 activities: ['stormSphereBolt']
             },
             {
-                pass: 'preItemRoll',
+                pass: 'preAttackRollConfig',
                 macro: early,
                 priority: 50,
                 activities: ['stormSphereBolt']

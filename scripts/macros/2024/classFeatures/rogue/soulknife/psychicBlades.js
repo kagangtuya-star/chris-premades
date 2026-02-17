@@ -97,7 +97,7 @@ export let psychicBlades = {
                 priority: 50
             },
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: range,
                 priority: 55,
                 activities: ['ranged', 'bonusRanged']

@@ -231,7 +231,7 @@ export let invokeDuplicityDistract = {
     midi: {
         actor: [
             {
-                pass: 'scenePreambleComplete',
+                pass: 'scenePreAttackRollConfig',
                 macro: attack,
                 priority: 50
             }

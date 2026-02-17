@@ -279,7 +279,7 @@ export let hybridTransformationActive = {
     midi: {
         actor: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: earlyBrand,
                 priority: 50
             }

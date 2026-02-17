@@ -473,6 +473,15 @@
                 "preambleComplete": {
                     "Label": "Preamble Complete"
                 },
+                "preAttackRollConfig": {
+                    "Label": "Pre-Attack Roll Configs"
+                },
+                "targetPreAttackRollConfig": {
+                    "Label": "Target Pre-Attack Roll Configs"
+                },
+                "scenePreAttackRollConfig": {
+                    "Label": "Scene Pre-Attack Roll Configs"
+                },
                 "rollFinished": {
                     "Label": "Roll Finished"
                 },

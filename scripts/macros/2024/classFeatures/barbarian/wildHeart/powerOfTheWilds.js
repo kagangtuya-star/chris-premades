@@ -26,7 +26,7 @@ export let powerOfTheWildsLion = {
     midi: {
         actor: [
             {
-                pass: 'scenePreambleComplete',
+                pass: 'scenePreAttackRollConfig',
                 macro: lion,
                 priority: 50
             }

@@ -1,4 +1,3 @@
-import {genericUtils, itemUtils} from '../../../../utils.js';
 async function early({trigger: {entity: item}, workflow}) {
     if (workflow.targets.size !== 1) return;
     let hp = workflow.actor.system.attributes.hp;
@@ -12,7 +11,7 @@ export let bloodiedFrenzy = {
     midi: {
         actor: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: early,
                 priority: 50
             }

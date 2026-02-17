@@ -80,7 +80,7 @@ export let cloudStrike = {
     midi: {
         actor: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: earlyCloud,
                 priority: 50
             }

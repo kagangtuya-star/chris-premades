@@ -24,7 +24,7 @@ export let shadowyDodge = {
     midi: {
         actor: [
             {
-                pass: 'targetPreambleComplete',
+                pass: 'targetPreAttackRollConfig',
                 macro: attacked,
                 priority: 50
             },

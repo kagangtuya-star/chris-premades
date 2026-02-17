@@ -18,12 +18,12 @@ export let invisible = {
     midi: {
         actor: [
             {
-                pass: 'targetPreambleComplete',
+                pass: 'targetPreAttackRollConfig',
                 macro: attacked,
                 priority: 50
             },
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: attacking,
                 priority: 50
             }

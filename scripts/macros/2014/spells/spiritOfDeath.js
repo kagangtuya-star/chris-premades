@@ -176,7 +176,7 @@ export let spiritOfDeathReapingScythe = {
     midi: {
         item: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: attack,
                 priority: 50
             }

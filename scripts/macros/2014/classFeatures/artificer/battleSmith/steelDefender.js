@@ -223,7 +223,7 @@ export let steelDefenderDeflectAttack = {
     midi: {
         actor: [
             {
-                pass: 'scenePreambleComplete',
+                pass: 'scenePreAttackRollConfig',
                 macro: early,
                 priority: 50
             }

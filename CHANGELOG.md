@@ -1,3 +1,12 @@
+# 1.5.0 Release:
+## Update Notes:
+- CPR now requires the 5.2.5 D&D system.
+- CPR now requires Midi-Qol 13.0.48 or higher.
+- Invisibility condition handling has been removed due to Midi-Qol better handling it now.
+- This update brings CPR up to date with recent Midi-Qol advantage and disadvantage changes.
+## API Update Notes:
+- Added `preAttackRollConfig`, `targetPreAttackRollConfig`, and `scenePreAttackRollConfig` to the API and embedded macros.
+
 # 1.4.29 Release:
 ## New Modern Content:
 - Down But Not Out (Thanks Bacon)

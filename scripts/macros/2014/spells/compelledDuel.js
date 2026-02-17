@@ -189,7 +189,7 @@ export let compelledDuelCompelled = {
     midi: {
         actor: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: targetAttack,
                 priority: 50
             },

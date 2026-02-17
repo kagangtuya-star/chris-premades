@@ -1,4 +1,4 @@
-import {activityUtils, actorUtils, constants, dialogUtils, effectUtils, genericUtils, itemUtils, tokenUtils, workflowUtils} from '../../../../../utils.js';
+import {activityUtils, actorUtils, dialogUtils, effectUtils, itemUtils, tokenUtils, workflowUtils} from '../../../../../utils.js';
 async function attack({trigger: {entity: effect}, workflow}) {
     if (!workflowUtils.isAttackType(workflow, 'attack')) return;
     let nearbyInvokeDuplicity = tokenUtils.findNearby(workflow.targets.first(), 5, 'enemy').find(token => {
@@ -47,7 +47,7 @@ export let improvedDuplicityEffect = {
     midi: {
         actor: [
             {
-                pass: 'scenePreambleComplete',
+                pass: 'scenePreAttackRollConfig',
                 macro: attack,
                 priority: 50
             }

@@ -51,7 +51,7 @@ export let underwaterEffect = {
     midi: {
         actor: [
             {
-                pass: 'preambleComplete',
+                pass: 'preAttackRollConfig',
                 macro: attack,
                 priority: 1
             },

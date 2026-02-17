@@ -428,6 +428,20 @@ export const eventStructure = {
             ]
         },
         {
+            pass: 'preAttackRollConfig',
+            documents: [
+                'item',
+                'activeeffect',
+                'measuredtemplate',
+                'region',
+                'activity'
+            ],
+            options: [
+                'target',
+                'scene'
+            ]
+        },
+        {
             pass: 'postAttackRoll',
             documents: [
                 'item',
