@@ -1,3 +1,8 @@
+# 1.5.2 Release:
+## New Legacy Content:
+- Channel Divinity (Paladin)
+- Guided Strike
+
 # 1.5.1 Release:
 ## Update Notes:
 - Updated many items away from using depricated Midi-Qol flags.

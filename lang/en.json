@@ -461,6 +461,9 @@
                 "postEvaluation": {
                     "Label": "Post-Evaluation"
                 },
+                "preAttackRollConfig": {
+                    "Label": "Pre-Attack Roll Configs"
+                },
                 "preEvaluation": {
                     "Label": "Pre-Evaluation"
                 },
@@ -472,15 +475,6 @@
                 },
                 "preambleComplete": {
                     "Label": "Preamble Complete"
-                },
-                "preAttackRollConfig": {
-                    "Label": "Pre-Attack Roll Configs"
-                },
-                "targetPreAttackRollConfig": {
-                    "Label": "Target Pre-Attack Roll Configs"
-                },
-                "scenePreAttackRollConfig": {
-                    "Label": "Scene Pre-Attack Roll Configs"
                 },
                 "rollFinished": {
                     "Label": "Roll Finished"
@@ -515,6 +509,9 @@
                 "scenePostEvaluation": {
                     "Label": "Scene Post-Evaluation"
                 },
+                "scenePreAttackRollConfig": {
+                    "Label": "Scene Pre-Attack Roll Configs"
+                },
                 "scenePreEvaluation": {
                     "Label": "Scene Pre-Evaluation"
                 },
@@ -547,6 +544,9 @@
                 },
                 "targetPostAttackRoll": {
                     "Label": "Target Post-Attack Roll"
+                },
+                "targetPreAttackRollConfig": {
+                    "Label": "Target Pre-Attack Roll Configs"
                 },
                 "targetPreItemRoll": {
                     "Label": "Target Pre-Item Roll"
@@ -1654,6 +1654,9 @@
                 "Beast": "Primal Beast",
                 "Select": "What form do you assume?",
                 "Tree": "Great Tree"
+            },
+            "GuidedStrike": {
+                "Attack": "Use {item}? Attack Roll: {attackRoll}"
             },
             "GustOfWind": {
                 "Move": "Gust of Wind: Move",
