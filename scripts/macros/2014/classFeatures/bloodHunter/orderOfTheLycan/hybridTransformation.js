@@ -23,7 +23,7 @@ async function use({workflow}) {
                 priority: 20
             },
             {
-                key: 'flags.midi-qol.advantage.ability.save.str',
+                key: 'flags.midi-qol.advantage.save.str',
                 mode: 0,
                 value: 1,
                 priority: 20
@@ -180,7 +180,7 @@ async function turnStart({trigger: {entity: effect, token}}) {
             img: constants.tempConditionIcon,
             changes: [
                 {
-                    key: 'flags.midi-qol.advantage.ability.save.wis',
+                    key: 'flags.midi-qol.advantage.save.wis',
                     mode: 0,
                     value: 1,
                     priority: 20

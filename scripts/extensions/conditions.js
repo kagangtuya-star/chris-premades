@@ -91,20 +91,22 @@ async function preCreateActiveEffect(effect, updates, options, userId) {
         statuses.forEach(i => {
             switch(i) {
                 case 'blinded':
-                    changes.push(
-                        {
-                            key: 'flags.midi-qol.disadvantage.attack.all',
-                            mode: 0,
-                            value: 1,
-                            priority: 20
-                        },
-                        {
-                            key: 'flags.midi-qol.grants.advantage.attack.all',
-                            mode: 0,
-                            value: 1,
-                            priority: 20
-                        }
-                    );
+                    if (rules === 'legacy') {
+                        changes.push(
+                            {
+                                key: 'flags.midi-qol.disadvantage.attack.all',
+                                mode: 0,
+                                value: 1,
+                                priority: 20
+                            },
+                            {
+                                key: 'flags.midi-qol.grants.advantage.attack.all',
+                                mode: 0,
+                                value: 1,
+                                priority: 20
+                            }
+                        );
+                    }
                     return;
                 case 'frightened':
                     changes.push(
