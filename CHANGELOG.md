@@ -1,6 +1,6 @@
 # 1.5.1 Release:
 ## Update Notes:
-- Updated many away from using depricated Midi-Qol flags.
+- Updated many items away from using depricated Midi-Qol flags.
 - Modern blinded condition handling has been removed due to Midi-Qol better handling it now.
 
 # 1.5.0 Release:
