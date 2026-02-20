@@ -43,6 +43,7 @@ export {undeadFortitude} from './macros/2014/monsterFeatures/generic/undeadForti
 export {autoProne} from './macros/2014/monsterFeatures/generic/autoProne.js';
 export {grappleAttackAdvantage} from './macros/2014/monsterFeatures/generic/grappleAttackAdvantage.js';
 export {engulf, engulfEffect} from './macros/2014/monsterFeatures/generic/engulf.js';
+export {timeTrigger, timeTriggerEffect} from './macros/2014/monsterFeatures/generic/timeTrigger.js';
 // Mechanics
 export {cleaveMastery, grazeMastery, pushMastery, sapMastery, slowMastery, toppleMastery, vexMastery} from './macros/2024/mechanics/masteries.js';
 export {invisible} from './macros/2024/mechanics/invisible.js';

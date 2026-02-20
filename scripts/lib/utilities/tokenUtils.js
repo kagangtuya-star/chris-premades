@@ -470,6 +470,9 @@ async function mountToken(rider, target, {vae, unhideActivities} = {}) {
     await game.Rideable.Mount([rider.document], target.document);
     return true;
 }
+function getBaseActor(token) {
+    return token.document.baseActor ?? token.document.actor;
+}
 export let tokenUtils = {
     getDistance,
     checkCover,
@@ -489,5 +492,6 @@ export let tokenUtils = {
     getLinearDistanceMoved,
     isGrappledBy,
     mountToken,
-    detachFromToken
+    detachFromToken,
+    getBaseActor
 };

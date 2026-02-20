@@ -1,3 +1,11 @@
+# 1.5.3 Releaes:
+## Update Notes:
+- Added a time trigger generic action. This can be used to trigger an activity to roll against on a target every configured interval. Combined with other generic features it's possible to make many long-term curse features. Such as a Slaad's mutating claw.
+## Bug Fixes:
+- Meat Shield (Thanks Bacon)
+## API Update Notes:
+- Added a time event with a `timeUpdated` pass to the API and embedded macros. See the time trigger generic action for an example.
+
 # 1.5.2 Release:
 ## New Legacy Content:
 - Channel Divinity (Paladin)

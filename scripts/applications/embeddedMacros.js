@@ -935,6 +935,15 @@ export const eventStructure = {
                 'scene'
             ]
         }
+    ],
+    time: [
+        {
+            pass: 'timeUpdated',
+            documents: [
+                'effect',
+                'item'
+            ]
+        }
     ]
 };
 export function getDocumentPasses(document, type) {
