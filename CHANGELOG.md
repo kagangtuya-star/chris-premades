@@ -1,3 +1,7 @@
+# 1.5.4 Releaes:
+## Bug Fixes:
+- Dreadful Strikes (Legacy and Modern)
+
 # 1.5.3 Releaes:
 ## Update Notes:
 - Added a time trigger generic monster feature. This can be used to trigger an activity to roll against on a target every configured interval. Combined with other generic features it's possible to make many long-term curse features. Such as a Slaad's mutating claw.
