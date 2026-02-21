@@ -3,6 +3,8 @@
 - Stage 2 Boon: Inhuman Reflexes
 - Stage 2 Boon: Undead Resilience
 - Stage 2 Flaw: Greater Sanguine Curse
+## Bug Fixes:
+- Dreadful Strikes (Legacy and Modern)
 
 # 1.5.3 Releaes:
 ## Update Notes:
