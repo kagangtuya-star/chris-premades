@@ -527,3 +527,6 @@ export {eldritchOverload} from './macros/2024/monsterFeatures/eldritchEddy/eldri
 export {vampireFangedBite} from './macros/2024/transformations/vampire/fangedBite.js';
 export {strigoiBloodline} from './macros/2024/transformations/vampire/strigoiBloodline.js';
 export {sanguineCurse} from './macros/2024/transformations/vampire/sanguineCurse.js';
+export {greaterSanguineCurse} from './macros/2024/transformations/vampire/greaterSanguineCurse.js';
+export {inhumanReflexes} from './macros/2024/transformations/vampire/inhumanReflexes.js';
+export {undeadResilience} from './macros/2024/transformations/vampire/undeadResilience.js';
