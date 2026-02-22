@@ -1,7 +1,6 @@
 import {activityUtils, combatUtils, dialogUtils, effectUtils, genericUtils, itemUtils, regionUtils, templateUtils, workflowUtils} from '../../../utils.js';
 async function early({trigger, workflow}) {
     let concentration = effectUtils.getConcentrationEffect(workflow.actor, workflow.item);
-    console.log(concentration);
     let shape = await dialogUtils.buttonDialog(workflow.item.name, 'CHRISPREMADES.Macros.WallOfFire.Shape', [['REGION.SHAPES.circle', 'circle'], ['DND5E.TARGET.Type.Line.Label', 'line']], {displayAsRows: true});
     if (!shape) return;
     let playAnimation = itemUtils.getConfig(workflow.item, 'playAnimation');
@@ -142,6 +141,7 @@ async function early({trigger, workflow}) {
             regionData.shapes[0].radiusY = (template.object.shape.radius / radius) * (radius + 0.5);
         }
         let [visibilityRegion] = await regionUtils.createRegions([visionRegionData], workflow.token.scene, {parentEntity: concentration});
+        await genericUtils.sleep(50);
         await workflowUtils.updateTargets(workflow, visibilityRegion.tokens.map(i => i.object));
         await genericUtils.update(visibilityRegion, {
             shapes: [
@@ -294,7 +294,7 @@ async function early({trigger, workflow}) {
         };
         effectUtils.addMacro(visionRegionData, 'region', ['wallOfFireWallRegion']);
         let [visibilityRegion] = await regionUtils.createRegions([visionRegionData], workflow.token.scene, {parentEntity: concentration});
-        //let targets = templateUtils.getTokensInTemplate(template);
+        await genericUtils.sleep(50);
         let targets = Array.from(visibilityRegion.tokens);
         await genericUtils.update(template, {
             width: 1

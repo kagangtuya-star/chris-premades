@@ -1,3 +1,7 @@
+# 1.5.5 Release:
+## Update Notes:
+- This update fixes the remaining advantage and disadvantage changes missed by 1.5.0. (Thanks Bacon)
+
 # 1.5.4 Release:
 ## New Modern Content:
 - Stage 2 Boon: Inhuman Reflexes
