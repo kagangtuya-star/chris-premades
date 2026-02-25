@@ -1,3 +1,8 @@
+# 1.5.6 Release:
+## Bug Fixes:
+- Engulf Generic Monster Features
+- Grave Touched
+
 # 1.5.5 Release:
 ## Update Notes:
 - This update fixes the remaining advantage and disadvantage changes missed by 1.5.0. (Thanks Bacon)
