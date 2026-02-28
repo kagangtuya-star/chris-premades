@@ -1,3 +1,7 @@
+# 1.5.9 Release:
+## Bug Fixes:
+- Help Action
+
 # 1.5.8 Release:
 ## Bug Fixes:
 - Topple Mastery
