@@ -1,3 +1,7 @@
+# 1.5.8 Release:
+## Bug Fixes:
+- Topple Mastery
+
 # 1.5.7 Relaese:
 ## Bug Fixes:
 - Sharpshooter (Thanks Bacon)
