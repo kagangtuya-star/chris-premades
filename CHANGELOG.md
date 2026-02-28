@@ -1,3 +1,12 @@
+# 1.5.7 Relaese:
+## Bug Fixes:
+- Sharpshooter (Thanks Bacon)
+- Conjure Fey (Thanks Bacon)
+- Conjure Minor Elementals (Thanks Bacon)
+- Conjure Woodland Beings (Thanks Bacon)
+- Arcane Ward (Thanks Bacon)
+- Cosmic Omen (Thanks Bacon)
+
 # 1.5.6 Release:
 ## Bug Fixes:
 - Engulf Generic Monster Features

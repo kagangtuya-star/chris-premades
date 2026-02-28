@@ -70,7 +70,6 @@ async function getWealWoeBonus(effect, item, token, targetToken) {
     let activity = activityUtils.getActivityByIdentifier(item, isWeal ? 'cosmicOmenWeal' : 'cosmicOmenWoe', {strict: true});
     let newWorkflow = await workflowUtils.syntheticActivityRoll(activity, [targetToken], {
         options: {
-            workflowData: true,
             workflowOptions: {
                 'chris-premades': {
                     notManual: true
