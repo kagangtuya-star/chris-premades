@@ -40,7 +40,11 @@ async function damage({trigger: {entity: item}, workflow}) {
             }
         }
     }
-    await workflow.setDamageRolls(highRolls);
+    let newDamageRolls = workflow.damageRolls;
+    for (let i = 0; i < numWeaponDamageRolls; i++) {
+        newDamageRolls[i] = highRolls[i];
+    }
+    await workflow.setDamageRolls(newDamageRolls);
 }
 export let savageAttacker = {
     name: 'Savage Attacker',
