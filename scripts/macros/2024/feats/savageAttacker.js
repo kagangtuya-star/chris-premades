@@ -11,7 +11,7 @@ async function damage({trigger: {entity: item}, workflow}) {
     let oldRoll = workflow.damageRoll;
     let newRoll = await rollUtils.damageRoll(oldRoll.formula, workflow.activity, oldRoll.options);
     if (oldRoll.total >= newRoll.total) return;
-    await workflow.setDamageRolls(newRoll);
+    await workflow.setDamageRolls([newRoll]);
 }
 async function combatEnd({trigger: {entity: item}}) {
     await combatUtils.setTurnCheck(item, 'savageAttacker', true);
